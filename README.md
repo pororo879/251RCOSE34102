@@ -4,7 +4,7 @@
 - fcfs
 - sjf
 - npps(nonpreemptive priority scheduling)
-- hrrn(highest response ratio)
+- hrrn(highest response ratio next)
 - srtf
 - pps(preemptive priority scheduling)
 - rr
