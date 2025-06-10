@@ -32,12 +32,12 @@ void enqueue(Queue* q, Process* p) {
         fprintf(stderr, "Queue overflow\n");
         return;
     }
-    q->data[q->rear++] = p;  // rear¿¡ »ðÀÔ    
+    q->data[q->rear++] = p;   
 }
 
 Process* dequeue(Queue* q) {
     if (is_empty(q)) return NULL;
-    return q->data[q->front++];  // front¿¡¼­ ²¨³»±â
+    return q->data[q->front++]; 
 }
 
 
